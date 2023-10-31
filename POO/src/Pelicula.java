@@ -8,7 +8,7 @@ public class Pelicula {
     //Metodos constructores
     //Metodo constructor sin parametros
     public Pelicula(){
-
+        this("No disponible", 0, "No disponible", "No disponible", "No disponible");
     }
     //Metodo constructor con todos los parametros
     public Pelicula(String nombre, int duracion, String genero, String calidad, String clasificacion){
